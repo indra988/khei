@@ -80,9 +80,9 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
    
   }
   
-  function claim($bearer,$id,$id1)
+  function claim($bearer,$id,$2020041601)
   {
-    $body = array("rewardId"=>$id1,"rewardTransactionId"=>$id);
+    $body = array("rewardId"=>$2020041601,"rewardTransactionId"=>$id);
     $body = json_encode($body);
     $ctl = strlen($body);
     $header = array("Host:bonstri.tri.co.id" ,
