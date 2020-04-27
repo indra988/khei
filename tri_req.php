@@ -80,7 +80,7 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
    
   }
   
-  function claim($bearer,$id,23111802)
+  function claim($bearer,$id)
   {
     $body = array("rewardId"=>"23111802","rewardTransactionId"=>$id);
     $body = json_encode($body);
